@@ -37,6 +37,8 @@ app.get('/', (req, res) => {
   res.status(200).send('<h1>Psicoreinventar API</h1>');
 });
 
+// app.use('/api/v1', router);
+
 // Middleware
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
